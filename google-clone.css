@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.header-main{
+    width: 99%;
+    height: 25px;
+    margin-top: 15px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-weight: 700;
+}
+.first{
+    margin: 3px;
+}
+.header-main a{
+    text-decoration: none;
+    border: 2px solid transparent;
+
+}
+.header-main a:hover{
+border: 2px  solid black;
+color: blue;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.search img{
+height: 150px;
+}
+.search input{
+    height: 25px;
+    width: 500px;
+    margin-top: 25px;
+    border-radius: 12px;
+    padding: 2%;
+    border: 2px solid darkgrey;
+}
+.search input:hover{
+border: 2px solid black;
+}
+.search a{
+    text-decoration: none;
+    
+}
+.search-all{
+    display: flex;
+
+}
+.search-button{
+    margin-top: 25px;
+    margin-left: -19px;
+    height: 40px;
+    padding: 2px 4px 2px 2px;
+    /* border: 2px solid darkgray; */
+    border: 2px solid transparent;
+    border-left: 2px solid darkgray;
+    justify-content: center;
+    align-self: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #5f6368;
+}
+
+.search-button i{
+    margin-top: 5px;
+    border: 0.5px solid transparent;
+}
+.search-button button{
+    margin-top: -4px;
+    margin-left: -3px;
+    height: 48px;
+    width: 40px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: white;
+    border: 2px solid darkgray;
+}
+.search-button button:hover{
+    border: 2px solid black;
+}
+.end-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    width: 500px;
+}
+.end-button button{
+    border-radius: 4px;
+    color: #3c4043;
+}
+.end-button a{
+    color: #3c4043;
+    padding: 10px;
+}
+.first1 , .second2{
+    background-color: #f8f9fa;  
+}
+.end{
+    display: flex;
+    margin-top: 20px;
+}
+.end0{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.end a{
+    font-size: 15px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+.end a:hover{
+    text-decoration: underline;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: darkgray;
+}
+.foot{
+       display: flex;
+       align-items: center;
+}
+.foot1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 100%;
+}
